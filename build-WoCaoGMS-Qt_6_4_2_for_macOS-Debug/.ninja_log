@@ -1,0 +1,9 @@
+# ninja log v5
+0	551	1683111511232363109	WoCaoGMS_autogen/timestamp	4b1bec36ac394fee
+0	551	1683111511232363109	WoCaoGMS_autogen/mocs_compilation.cpp	4b1bec36ac394fee
+0	551	1683111511232363109	/Users/mac/QtProjects/build-WoCaoGMS-Qt_6_4_2_for_macOS-Debug/WoCaoGMS_autogen/timestamp	4b1bec36ac394fee
+0	551	1683111511232363109	/Users/mac/QtProjects/build-WoCaoGMS-Qt_6_4_2_for_macOS-Debug/WoCaoGMS_autogen/mocs_compilation.cpp	4b1bec36ac394fee
+551	1865	1683111512557618244	CMakeFiles/WoCaoGMS.dir/WoCaoGMS_autogen/mocs_compilation.cpp.o	7ddbc7a0804a16dd
+551	1887	1683111512578104005	CMakeFiles/WoCaoGMS.dir/main.cpp.o	c8e620aaeed7a23a
+551	1909	1683111512602302936	CMakeFiles/WoCaoGMS.dir/mainwindow.cpp.o	2af05680d88f1e24
+1909	2218	1683111512908473803	WoCaoGMS.app/Contents/MacOS/WoCaoGMS	274a1fbd07de97f6
