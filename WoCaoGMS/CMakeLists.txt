@@ -17,6 +17,11 @@ set(PROJECT_SOURCES
         mainwindow.cpp
         mainwindow.h
         mainwindow.ui
+        logindialog.h logindialog.cpp logindialog.ui
+        registdialog.h registdialog.cpp registdialog.ui
+        userdatamodel.h userdatamodel.cpp
+        userdata.h userdata.cpp
+
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
