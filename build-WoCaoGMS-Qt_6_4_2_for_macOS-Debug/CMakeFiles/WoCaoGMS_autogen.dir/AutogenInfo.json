@@ -253,6 +253,30 @@
 	"HEADERS" : 
 	[
 		[
+			"/Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS/globalconfig.h",
+			"MU",
+			"EWIEGA46WW/moc_globalconfig.cpp",
+			null
+		],
+		[
+			"/Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS/goodsadddialog.h",
+			"MU",
+			"EWIEGA46WW/moc_goodsadddialog.cpp",
+			null
+		],
+		[
+			"/Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS/goodsinfo.h",
+			"MU",
+			"EWIEGA46WW/moc_goodsinfo.cpp",
+			null
+		],
+		[
+			"/Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS/goodsinfomodel.h",
+			"MU",
+			"EWIEGA46WW/moc_goodsinfomodel.cpp",
+			null
+		],
+		[
 			"/Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS/logindialog.h",
 			"MU",
 			"EWIEGA46WW/moc_logindialog.cpp",
@@ -340,6 +364,26 @@
 	"SETTINGS_FILE" : "/Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/build-WoCaoGMS-Qt_6_4_2_for_macOS-Debug/CMakeFiles/WoCaoGMS_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"/Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS/globalconfig.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS/goodsadddialog.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS/goodsinfo.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS/goodsinfomodel.cpp",
+			"MU",
+			null
+		],
 		[
 			"/Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS/logindialog.cpp",
 			"MU",

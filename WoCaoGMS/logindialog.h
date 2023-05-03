@@ -24,8 +24,6 @@ public:
     QString getUserPassword();
     bool getLoginStatus(); //获取登录状态
 
-
-
 private slots:
     void on_registButton_clicked();
 

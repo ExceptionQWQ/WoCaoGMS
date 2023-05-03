@@ -21,7 +21,10 @@ set(PROJECT_SOURCES
         registdialog.h registdialog.cpp registdialog.ui
         userdatamodel.h userdatamodel.cpp
         userdata.h userdata.cpp
-
+        globalconfig.h globalconfig.cpp
+        goodsadddialog.h goodsadddialog.cpp goodsadddialog.ui
+        goodsinfo.h goodsinfo.cpp
+        goodsinfomodel.h goodsinfomodel.cpp
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-1061dd15a767efa5e86b.json",
+					"jsonFile" : "directory-.-Debug-1bffe7542a66459a8441.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "WoCaoGMS::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-WoCaoGMS-Debug-c58c77ca5c26876318c3.json",
+					"jsonFile" : "target-WoCaoGMS-Debug-163a8c07451372a0562f.json",
 					"name" : "WoCaoGMS",
 					"projectIndex" : 0
 				},

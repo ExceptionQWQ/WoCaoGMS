@@ -703,14 +703,20 @@
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/xlocale.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/xlocale/_time.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include/stdarg.h \
+  /Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS/globalconfig.h \
+  /Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS/goodsadddialog.h \
+  /Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS/goodsinfo.h \
+  /Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS/goodsinfomodel.h \
   /Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS/logindialog.h \
   /Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS/registdialog.h \
   /Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS/userdata.h \
   /Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS/userdatamodel.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/QCryptographicHash \
+  /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/QItemSelectionModel \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/QMap \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/QRegularExpression \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/QString \
+  /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qabstractitemmodel.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qalgorithms.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qanystringview.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qarraydata.h \
@@ -742,6 +748,7 @@
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qhash.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qhashfunctions.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qiodevicebase.h \
+  /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qitemselectionmodel.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qiterable.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qiterator.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qline.h \
@@ -794,6 +801,7 @@
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qvariant.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qvarlengtharray.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qversiontagging.h \
+  /Users/mac/Qt/6.4.2/macos/lib/QtGui.framework/Versions/A/Headers/QStandardItemModel \
   /Users/mac/Qt/6.4.2/macos/lib/QtGui.framework/Versions/A/Headers/qaction.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtGui.framework/Versions/A/Headers/qbitmap.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtGui.framework/Versions/A/Headers/qbrush.h \
@@ -813,6 +821,7 @@
   /Users/mac/Qt/6.4.2/macos/lib/QtGui.framework/Versions/A/Headers/qregion.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtGui.framework/Versions/A/Headers/qrgb.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtGui.framework/Versions/A/Headers/qrgba64.h \
+  /Users/mac/Qt/6.4.2/macos/lib/QtGui.framework/Versions/A/Headers/qstandarditemmodel.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtGui.framework/Versions/A/Headers/qtgui-config.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtGui.framework/Versions/A/Headers/qtguiexports.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtGui.framework/Versions/A/Headers/qtguiglobal.h \

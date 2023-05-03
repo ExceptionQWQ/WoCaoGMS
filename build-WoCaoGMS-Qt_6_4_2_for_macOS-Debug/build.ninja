@@ -102,6 +102,38 @@ build CMakeFiles/WoCaoGMS.dir/userdata.cpp.o: CXX_COMPILER__WoCaoGMS_Debug /User
   OBJECT_DIR = CMakeFiles/WoCaoGMS.dir
   OBJECT_FILE_DIR = CMakeFiles/WoCaoGMS.dir
 
+build CMakeFiles/WoCaoGMS.dir/globalconfig.cpp.o: CXX_COMPILER__WoCaoGMS_Debug /Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS/globalconfig.cpp || cmake_object_order_depends_target_WoCaoGMS
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/WoCaoGMS.dir/globalconfig.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -std=gnu++17
+  INCLUDES = -I/Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/build-WoCaoGMS-Qt_6_4_2_for_macOS-Debug/WoCaoGMS_autogen/include -isystem /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Headers -iframework /Users/mac/Qt/6.4.2/macos/lib -isystem /Users/mac/Qt/6.4.2/macos/mkspecs/macx-clang -isystem /Users/mac/Qt/6.4.2/macos/include -isystem /Users/mac/Qt/6.4.2/macos/lib/QtWidgets.framework/Headers -isystem /Users/mac/Qt/6.4.2/macos/lib/QtGui.framework/Headers
+  OBJECT_DIR = CMakeFiles/WoCaoGMS.dir
+  OBJECT_FILE_DIR = CMakeFiles/WoCaoGMS.dir
+
+build CMakeFiles/WoCaoGMS.dir/goodsadddialog.cpp.o: CXX_COMPILER__WoCaoGMS_Debug /Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS/goodsadddialog.cpp || cmake_object_order_depends_target_WoCaoGMS
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/WoCaoGMS.dir/goodsadddialog.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -std=gnu++17
+  INCLUDES = -I/Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/build-WoCaoGMS-Qt_6_4_2_for_macOS-Debug/WoCaoGMS_autogen/include -isystem /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Headers -iframework /Users/mac/Qt/6.4.2/macos/lib -isystem /Users/mac/Qt/6.4.2/macos/mkspecs/macx-clang -isystem /Users/mac/Qt/6.4.2/macos/include -isystem /Users/mac/Qt/6.4.2/macos/lib/QtWidgets.framework/Headers -isystem /Users/mac/Qt/6.4.2/macos/lib/QtGui.framework/Headers
+  OBJECT_DIR = CMakeFiles/WoCaoGMS.dir
+  OBJECT_FILE_DIR = CMakeFiles/WoCaoGMS.dir
+
+build CMakeFiles/WoCaoGMS.dir/goodsinfo.cpp.o: CXX_COMPILER__WoCaoGMS_Debug /Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS/goodsinfo.cpp || cmake_object_order_depends_target_WoCaoGMS
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/WoCaoGMS.dir/goodsinfo.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -std=gnu++17
+  INCLUDES = -I/Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/build-WoCaoGMS-Qt_6_4_2_for_macOS-Debug/WoCaoGMS_autogen/include -isystem /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Headers -iframework /Users/mac/Qt/6.4.2/macos/lib -isystem /Users/mac/Qt/6.4.2/macos/mkspecs/macx-clang -isystem /Users/mac/Qt/6.4.2/macos/include -isystem /Users/mac/Qt/6.4.2/macos/lib/QtWidgets.framework/Headers -isystem /Users/mac/Qt/6.4.2/macos/lib/QtGui.framework/Headers
+  OBJECT_DIR = CMakeFiles/WoCaoGMS.dir
+  OBJECT_FILE_DIR = CMakeFiles/WoCaoGMS.dir
+
+build CMakeFiles/WoCaoGMS.dir/goodsinfomodel.cpp.o: CXX_COMPILER__WoCaoGMS_Debug /Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS/goodsinfomodel.cpp || cmake_object_order_depends_target_WoCaoGMS
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/WoCaoGMS.dir/goodsinfomodel.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -std=gnu++17
+  INCLUDES = -I/Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/build-WoCaoGMS-Qt_6_4_2_for_macOS-Debug/WoCaoGMS_autogen/include -isystem /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Headers -iframework /Users/mac/Qt/6.4.2/macos/lib -isystem /Users/mac/Qt/6.4.2/macos/mkspecs/macx-clang -isystem /Users/mac/Qt/6.4.2/macos/include -isystem /Users/mac/Qt/6.4.2/macos/lib/QtWidgets.framework/Headers -isystem /Users/mac/Qt/6.4.2/macos/lib/QtGui.framework/Headers
+  OBJECT_DIR = CMakeFiles/WoCaoGMS.dir
+  OBJECT_FILE_DIR = CMakeFiles/WoCaoGMS.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target WoCaoGMS
@@ -110,7 +142,7 @@ build CMakeFiles/WoCaoGMS.dir/userdata.cpp.o: CXX_COMPILER__WoCaoGMS_Debug /User
 #############################################
 # Link the executable WoCaoGMS.app/Contents/MacOS/WoCaoGMS
 
-build WoCaoGMS.app/Contents/MacOS/WoCaoGMS: CXX_EXECUTABLE_LINKER__WoCaoGMS_Debug CMakeFiles/WoCaoGMS.dir/WoCaoGMS_autogen/mocs_compilation.cpp.o CMakeFiles/WoCaoGMS.dir/main.cpp.o CMakeFiles/WoCaoGMS.dir/mainwindow.cpp.o CMakeFiles/WoCaoGMS.dir/logindialog.cpp.o CMakeFiles/WoCaoGMS.dir/registdialog.cpp.o CMakeFiles/WoCaoGMS.dir/userdatamodel.cpp.o CMakeFiles/WoCaoGMS.dir/userdata.cpp.o | /Users/mac/Qt/6.4.2/macos/lib/QtWidgets.framework/Versions/A/QtWidgets /Users/mac/Qt/6.4.2/macos/lib/QtGui.framework/Versions/A/QtGui /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/QtCore || WoCaoGMS_autogen WoCaoGMS_autogen_timestamp_deps
+build WoCaoGMS.app/Contents/MacOS/WoCaoGMS: CXX_EXECUTABLE_LINKER__WoCaoGMS_Debug CMakeFiles/WoCaoGMS.dir/WoCaoGMS_autogen/mocs_compilation.cpp.o CMakeFiles/WoCaoGMS.dir/main.cpp.o CMakeFiles/WoCaoGMS.dir/mainwindow.cpp.o CMakeFiles/WoCaoGMS.dir/logindialog.cpp.o CMakeFiles/WoCaoGMS.dir/registdialog.cpp.o CMakeFiles/WoCaoGMS.dir/userdatamodel.cpp.o CMakeFiles/WoCaoGMS.dir/userdata.cpp.o CMakeFiles/WoCaoGMS.dir/globalconfig.cpp.o CMakeFiles/WoCaoGMS.dir/goodsadddialog.cpp.o CMakeFiles/WoCaoGMS.dir/goodsinfo.cpp.o CMakeFiles/WoCaoGMS.dir/goodsinfomodel.cpp.o | /Users/mac/Qt/6.4.2/macos/lib/QtWidgets.framework/Versions/A/QtWidgets /Users/mac/Qt/6.4.2/macos/lib/QtGui.framework/Versions/A/QtGui /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/QtCore || WoCaoGMS_autogen WoCaoGMS_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk
   LINK_LIBRARIES = -Wl,-rpath,/Users/mac/Qt/6.4.2/macos/lib  /Users/mac/Qt/6.4.2/macos/lib/QtWidgets.framework/Versions/A/QtWidgets  /Users/mac/Qt/6.4.2/macos/lib/QtGui.framework/Versions/A/QtGui  /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/QtCore  -framework IOKit  -framework DiskArbitration  -Xlinker -framework -Xlinker OpenGL  -Xlinker -framework -Xlinker AGL  -framework AppKit  -framework ImageIO  -framework Metal
   LINK_PATH = -F/Users/mac/Qt/6.4.2/macos/lib
@@ -196,7 +228,7 @@ build WoCaoGMS_autogen_timestamp_deps: phony CMakeFiles/WoCaoGMS_autogen_timesta
 #############################################
 # Utility command for WoCaoGMS_autogen
 
-build WoCaoGMS_autogen: phony CMakeFiles/WoCaoGMS_autogen WoCaoGMS_autogen/include/ui_mainwindow.h WoCaoGMS_autogen/include/ui_logindialog.h WoCaoGMS_autogen/include/ui_registdialog.h WoCaoGMS_autogen/timestamp WoCaoGMS_autogen/mocs_compilation.cpp WoCaoGMS_autogen_timestamp_deps
+build WoCaoGMS_autogen: phony CMakeFiles/WoCaoGMS_autogen WoCaoGMS_autogen/include/ui_mainwindow.h WoCaoGMS_autogen/include/ui_logindialog.h WoCaoGMS_autogen/include/ui_registdialog.h WoCaoGMS_autogen/include/ui_goodsadddialog.h WoCaoGMS_autogen/timestamp WoCaoGMS_autogen/mocs_compilation.cpp WoCaoGMS_autogen_timestamp_deps
 
 
 #############################################
@@ -212,13 +244,13 @@ build WoCaoGMS_autogen/timestamp WoCaoGMS_autogen/mocs_compilation.cpp | ${cmake
 #############################################
 # Phony custom command for CMakeFiles/WoCaoGMS_autogen_timestamp_deps
 
-build CMakeFiles/WoCaoGMS_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/WoCaoGMS_autogen_timestamp_deps: phony /Users/mac/Qt/6.4.2/macos/lib/QtWidgets.framework/Versions/A/QtWidgets /Users/mac/Qt/6.4.2/macos/./libexec/uic /Users/mac/Qt/6.4.2/macos/./libexec/moc /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/QtCore
+build CMakeFiles/WoCaoGMS_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/WoCaoGMS_autogen_timestamp_deps: phony /Users/mac/Qt/6.4.2/macos/./libexec/moc /Users/mac/Qt/6.4.2/macos/lib/QtWidgets.framework/Versions/A/QtWidgets /Users/mac/Qt/6.4.2/macos/./libexec/uic /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/QtCore
 
 
 #############################################
 # Phony custom command for CMakeFiles/WoCaoGMS_autogen
 
-build CMakeFiles/WoCaoGMS_autogen WoCaoGMS_autogen/include/ui_mainwindow.h WoCaoGMS_autogen/include/ui_logindialog.h WoCaoGMS_autogen/include/ui_registdialog.h | ${cmake_ninja_workdir}CMakeFiles/WoCaoGMS_autogen ${cmake_ninja_workdir}WoCaoGMS_autogen/include/ui_mainwindow.h ${cmake_ninja_workdir}WoCaoGMS_autogen/include/ui_logindialog.h ${cmake_ninja_workdir}WoCaoGMS_autogen/include/ui_registdialog.h: phony WoCaoGMS_autogen/timestamp || WoCaoGMS_autogen_timestamp_deps
+build CMakeFiles/WoCaoGMS_autogen WoCaoGMS_autogen/include/ui_mainwindow.h WoCaoGMS_autogen/include/ui_logindialog.h WoCaoGMS_autogen/include/ui_registdialog.h WoCaoGMS_autogen/include/ui_goodsadddialog.h | ${cmake_ninja_workdir}CMakeFiles/WoCaoGMS_autogen ${cmake_ninja_workdir}WoCaoGMS_autogen/include/ui_mainwindow.h ${cmake_ninja_workdir}WoCaoGMS_autogen/include/ui_logindialog.h ${cmake_ninja_workdir}WoCaoGMS_autogen/include/ui_registdialog.h ${cmake_ninja_workdir}WoCaoGMS_autogen/include/ui_goodsadddialog.h: phony WoCaoGMS_autogen/timestamp || WoCaoGMS_autogen_timestamp_deps
 
 # =============================================================================
 # Target aliases.
