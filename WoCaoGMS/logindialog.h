@@ -45,7 +45,7 @@ private:
     bool isAutoLogin = false; //是否自动登录
     bool rememberPassword = false; //是否记住密码
     UserDataModel* userDataModel;
-    bool loginStatus;
+    bool loginStatus = false;
 };
 
 #endif // LOGINDIALOG_H
