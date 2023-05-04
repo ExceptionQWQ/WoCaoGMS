@@ -705,8 +705,10 @@
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include/stdarg.h \
   /Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS/operationrecord.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/QDate \
+  /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/QFile \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/QString \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/QStringListModel \
+  /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/QTextStream \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/QTime \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qabstractitemmodel.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qalgorithms.h \
@@ -734,12 +736,15 @@
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qdatastream.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qdatetime.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qdebug.h \
+  /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qfile.h \
+  /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qfiledevice.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qflags.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qforeach.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qglobal.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qglobalstatic.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qhash.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qhashfunctions.h \
+  /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qiodevice.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qiodevicebase.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qiterable.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qiterator.h \

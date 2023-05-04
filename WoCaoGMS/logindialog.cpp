@@ -124,7 +124,7 @@ void LoginDialog::on_loginButton_clicked()
     hash.addData(passwd.toLocal8Bit().data());
     QString hex = hash.result().toHex();
     if (hex == userDataModel->map[name].getPassword() || passwd == userDataModel->map[name].getPassword()) {
-        OperationRecord::record(name, "登录账号");
+        OperationRecord::record(name, "login登录账号");
         loginSuccess(userDataModel->map[name]);
         close();
         return ;

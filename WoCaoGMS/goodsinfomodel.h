@@ -2,6 +2,8 @@
 #define GOODSINFOMODEL_H
 
 #include <QStandardItemModel>
+#include <QFile>
+#include <QTextStream>
 #include <QMap>
 #include <fstream>
 #include <string>

@@ -4,6 +4,8 @@
 #include <QString>
 #include <QDate>
 #include <QTime>
+#include <QFile>
+#include <QTextStream>
 #include <fstream>
 #include <string>
 

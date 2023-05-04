@@ -36,7 +36,7 @@
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>24</height>
+     <height>21</height>
     </rect>
    </property>
    <widget class="QMenu" name="menu">
@@ -119,7 +119,7 @@
     <string>下次取消自动登录</string>
    </property>
    <property name="shortcut">
-    <string>Meta+P</string>
+    <string>Ctrl+P</string>
    </property>
   </action>
   <action name="actCreateGoods">
@@ -133,7 +133,7 @@
     <string>新增商品</string>
    </property>
    <property name="shortcut">
-    <string>Meta+N</string>
+    <string>Ctrl+N</string>
    </property>
   </action>
   <action name="actDeleteGoods">
@@ -147,7 +147,7 @@
     <string>删除商品</string>
    </property>
    <property name="shortcut">
-    <string>Meta+D</string>
+    <string>Ctrl+D</string>
    </property>
   </action>
   <action name="actGoodsIn">
@@ -161,7 +161,7 @@
     <string>商品进货</string>
    </property>
    <property name="shortcut">
-    <string>Meta+I</string>
+    <string>Ctrl+I</string>
    </property>
   </action>
   <action name="actGoodsOut">
@@ -175,7 +175,7 @@
     <string>商品销售</string>
    </property>
    <property name="shortcut">
-    <string>Meta+O</string>
+    <string>Ctrl+O</string>
    </property>
   </action>
   <action name="actAbout">
@@ -197,7 +197,7 @@
     <string>查找商品</string>
    </property>
    <property name="shortcut">
-    <string>Meta+F</string>
+    <string>Ctrl+F</string>
    </property>
   </action>
   <action name="actShowLog">
@@ -219,7 +219,7 @@
     <string>商品入库</string>
    </property>
    <property name="shortcut">
-    <string>Meta+Q</string>
+    <string>Ctrl+Q</string>
    </property>
   </action>
   <action name="actPutOut">
@@ -233,7 +233,7 @@
     <string>商品出库</string>
    </property>
    <property name="shortcut">
-    <string>Meta+W</string>
+    <string>Ctrl+W</string>
    </property>
   </action>
  </widget>

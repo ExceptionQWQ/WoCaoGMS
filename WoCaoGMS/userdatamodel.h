@@ -3,6 +3,8 @@
 
 #include <QMap>
 #include <fstream>
+#include <QFile>
+#include <QTextStream>
 #include <string>
 #include "userdata.h"
 

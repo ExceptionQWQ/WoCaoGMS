@@ -10,23 +10,32 @@ void OperationRecord::record(QString name, QString op)
     QTime time = QTime::currentTime();
     QDate date = QDate::currentDate();
     QString info = date.toString("yyyy-MM-dd") + " " + time.toString("HH:mm:ss") +" " + name + " " + op;
-    std::ofstream out("record.txt", std::ios::app);
-    out << info.toLocal8Bit().data() << std::endl;
-    out.close();
+    QFile file("record.txt");
+    QTextStream out(&file);  //用文件构造流
+    file.open(QIODevice::WriteOnly | QIODevice::Text | QIODevice::Append);
+    out << info << QString("\n");
+    file.close();
 }
 
 QStringList OperationRecord::get()
 {
     QStringList list;
-    std::ifstream in("record.txt");
-    if (!in.is_open()) {
+    QFile file("record.txt");
+    if (!file.open(QIODevice::ReadOnly | QIODevice::Text))
+    {
         return list;
     }
-    std::string line;
+    QString line;
+    QTextStream in(&file);  //用文件构造流
+
     while (true) {
-        std::getline(in, line);
-        if (in.fail()) break;
-        list.push_back(QString(line.data()));
+        line = in.readLine();//读取一行放到字符串里
+        if (line.isNull() || line.isEmpty()) break;
+        qDebug() << line.toLocal8Bit().data();
+
+        list.push_back(line);
+
     }
+    file.close();
     return list;
 }

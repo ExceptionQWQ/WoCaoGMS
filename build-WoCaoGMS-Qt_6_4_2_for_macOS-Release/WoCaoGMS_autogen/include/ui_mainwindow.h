@@ -90,7 +90,7 @@ public:
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
-        menubar->setGeometry(QRect(0, 0, 800, 24));
+        menubar->setGeometry(QRect(0, 0, 800, 21));
         menu = new QMenu(menubar);
         menu->setObjectName("menu");
         menu_2 = new QMenu(menubar);
@@ -154,7 +154,7 @@ public:
         actExitLogin->setStatusTip(QCoreApplication::translate("MainWindow", "\344\270\213\346\254\241\345\217\226\346\266\210\350\207\252\345\212\250\347\231\273\345\275\225", nullptr));
 #endif // QT_CONFIG(statustip)
 #if QT_CONFIG(shortcut)
-        actExitLogin->setShortcut(QCoreApplication::translate("MainWindow", "Meta+P", nullptr));
+        actExitLogin->setShortcut(QCoreApplication::translate("MainWindow", "Ctrl+P", nullptr));
 #endif // QT_CONFIG(shortcut)
         actCreateGoods->setText(QCoreApplication::translate("MainWindow", "\346\226\260\345\242\236\345\225\206\345\223\201", nullptr));
 #if QT_CONFIG(tooltip)
@@ -164,7 +164,7 @@ public:
         actCreateGoods->setStatusTip(QCoreApplication::translate("MainWindow", "\346\226\260\345\242\236\345\225\206\345\223\201", nullptr));
 #endif // QT_CONFIG(statustip)
 #if QT_CONFIG(shortcut)
-        actCreateGoods->setShortcut(QCoreApplication::translate("MainWindow", "Meta+N", nullptr));
+        actCreateGoods->setShortcut(QCoreApplication::translate("MainWindow", "Ctrl+N", nullptr));
 #endif // QT_CONFIG(shortcut)
         actDeleteGoods->setText(QCoreApplication::translate("MainWindow", "\345\210\240\351\231\244\345\225\206\345\223\201", nullptr));
 #if QT_CONFIG(tooltip)
@@ -174,7 +174,7 @@ public:
         actDeleteGoods->setStatusTip(QCoreApplication::translate("MainWindow", "\345\210\240\351\231\244\345\225\206\345\223\201", nullptr));
 #endif // QT_CONFIG(statustip)
 #if QT_CONFIG(shortcut)
-        actDeleteGoods->setShortcut(QCoreApplication::translate("MainWindow", "Meta+D", nullptr));
+        actDeleteGoods->setShortcut(QCoreApplication::translate("MainWindow", "Ctrl+D", nullptr));
 #endif // QT_CONFIG(shortcut)
         actGoodsIn->setText(QCoreApplication::translate("MainWindow", "\345\225\206\345\223\201\350\277\233\350\264\247", nullptr));
 #if QT_CONFIG(tooltip)
@@ -184,7 +184,7 @@ public:
         actGoodsIn->setStatusTip(QCoreApplication::translate("MainWindow", "\345\225\206\345\223\201\350\277\233\350\264\247", nullptr));
 #endif // QT_CONFIG(statustip)
 #if QT_CONFIG(shortcut)
-        actGoodsIn->setShortcut(QCoreApplication::translate("MainWindow", "Meta+I", nullptr));
+        actGoodsIn->setShortcut(QCoreApplication::translate("MainWindow", "Ctrl+I", nullptr));
 #endif // QT_CONFIG(shortcut)
         actGoodsOut->setText(QCoreApplication::translate("MainWindow", "\345\225\206\345\223\201\351\224\200\345\224\256", nullptr));
 #if QT_CONFIG(tooltip)
@@ -194,7 +194,7 @@ public:
         actGoodsOut->setStatusTip(QCoreApplication::translate("MainWindow", "\345\225\206\345\223\201\351\224\200\345\224\256", nullptr));
 #endif // QT_CONFIG(statustip)
 #if QT_CONFIG(shortcut)
-        actGoodsOut->setShortcut(QCoreApplication::translate("MainWindow", "Meta+O", nullptr));
+        actGoodsOut->setShortcut(QCoreApplication::translate("MainWindow", "Ctrl+O", nullptr));
 #endif // QT_CONFIG(shortcut)
         actAbout->setText(QCoreApplication::translate("MainWindow", "\345\205\263\344\272\216", nullptr));
 #if QT_CONFIG(statustip)
@@ -208,7 +208,7 @@ public:
         actFindGoods->setStatusTip(QCoreApplication::translate("MainWindow", "\346\237\245\346\211\276\345\225\206\345\223\201", nullptr));
 #endif // QT_CONFIG(statustip)
 #if QT_CONFIG(shortcut)
-        actFindGoods->setShortcut(QCoreApplication::translate("MainWindow", "Meta+F", nullptr));
+        actFindGoods->setShortcut(QCoreApplication::translate("MainWindow", "Ctrl+F", nullptr));
 #endif // QT_CONFIG(shortcut)
         actShowLog->setText(QCoreApplication::translate("MainWindow", "\346\230\276\347\244\272\346\223\215\344\275\234\350\256\260\345\275\225", nullptr));
 #if QT_CONFIG(statustip)
@@ -222,7 +222,7 @@ public:
         actPutIn->setStatusTip(QCoreApplication::translate("MainWindow", "\345\225\206\345\223\201\345\205\245\345\272\223", nullptr));
 #endif // QT_CONFIG(statustip)
 #if QT_CONFIG(shortcut)
-        actPutIn->setShortcut(QCoreApplication::translate("MainWindow", "Meta+Q", nullptr));
+        actPutIn->setShortcut(QCoreApplication::translate("MainWindow", "Ctrl+Q", nullptr));
 #endif // QT_CONFIG(shortcut)
         actPutOut->setText(QCoreApplication::translate("MainWindow", "\345\207\272\345\272\223\357\274\210\347\233\230\347\202\271\357\274\211", nullptr));
 #if QT_CONFIG(tooltip)
@@ -232,7 +232,7 @@ public:
         actPutOut->setStatusTip(QCoreApplication::translate("MainWindow", "\345\225\206\345\223\201\345\207\272\345\272\223", nullptr));
 #endif // QT_CONFIG(statustip)
 #if QT_CONFIG(shortcut)
-        actPutOut->setShortcut(QCoreApplication::translate("MainWindow", "Meta+W", nullptr));
+        actPutOut->setShortcut(QCoreApplication::translate("MainWindow", "Ctrl+W", nullptr));
 #endif // QT_CONFIG(shortcut)
         menu->setTitle(QCoreApplication::translate("MainWindow", "\345\212\237\350\203\275", nullptr));
         menu_2->setTitle(QCoreApplication::translate("MainWindow", "\347\274\226\350\276\221", nullptr));
