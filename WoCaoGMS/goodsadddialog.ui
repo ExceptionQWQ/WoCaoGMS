@@ -70,7 +70,11 @@
       </widget>
      </item>
      <item>
-      <widget class="QDoubleSpinBox" name="priceEdit"/>
+      <widget class="QDoubleSpinBox" name="priceEdit">
+       <property name="maximum">
+        <double>9999999.000000000000000</double>
+       </property>
+      </widget>
      </item>
     </layout>
    </item>

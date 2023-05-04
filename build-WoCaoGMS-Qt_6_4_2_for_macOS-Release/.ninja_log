@@ -83,3 +83,14 @@
 1310	4493	1683178260679289945	CMakeFiles/WoCaoGMS.dir/logindialog.cpp.o	1a6fc60fd66df0d2
 1310	5034	1683178261218943601	CMakeFiles/WoCaoGMS.dir/mainwindow.cpp.o	9f9bea46da03661b
 5034	5417	1683178261593616122	WoCaoGMS.app/Contents/MacOS/WoCaoGMS	bbf39bef90e96a9c
+70	434	1683180280705009750	WoCaoGMS.app/Contents/MacOS/WoCaoGMS	bbf39bef90e96a9c
+27	152	1683182967638331456	WoCaoGMS_autogen/timestamp	7141d4f1feba9bc3
+27	152	1683182967638331456	WoCaoGMS_autogen/mocs_compilation.cpp	7141d4f1feba9bc3
+27	152	1683182967638331456	/Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/build-WoCaoGMS-Qt_6_4_2_for_macOS-Release/WoCaoGMS_autogen/timestamp	7141d4f1feba9bc3
+27	152	1683182967638331456	/Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/build-WoCaoGMS-Qt_6_4_2_for_macOS-Release/WoCaoGMS_autogen/mocs_compilation.cpp	7141d4f1feba9bc3
+163	2229	1683182969705734541	CMakeFiles/WoCaoGMS.dir/showrecord.cpp.o	da4a79c286f497a6
+163	2247	1683182969724472725	CMakeFiles/WoCaoGMS.dir/goodsadddialog.cpp.o	10bbbae1384f679c
+162	2265	1683182969742314780	CMakeFiles/WoCaoGMS.dir/registdialog.cpp.o	bd0a2710fc5c5c0f
+162	2331	1683182969810504219	CMakeFiles/WoCaoGMS.dir/logindialog.cpp.o	1a6fc60fd66df0d2
+162	2831	1683182970310293034	CMakeFiles/WoCaoGMS.dir/mainwindow.cpp.o	9f9bea46da03661b
+2831	3100	1683182970575772800	WoCaoGMS.app/Contents/MacOS/WoCaoGMS	bbf39bef90e96a9c

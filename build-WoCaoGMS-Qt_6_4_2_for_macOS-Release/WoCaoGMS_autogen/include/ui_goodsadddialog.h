@@ -86,6 +86,7 @@ public:
 
         priceEdit = new QDoubleSpinBox(GoodsAddDialog);
         priceEdit->setObjectName("priceEdit");
+        priceEdit->setMaximum(9999999.000000000000000);
 
         horizontalLayout_3->addWidget(priceEdit);
 
