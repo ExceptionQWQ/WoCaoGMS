@@ -1,6 +1,1 @@
-1000	aaa	aaa	0.00	0
-1001	111	12321	0.00	0
-1002	sdfdsfsd	sdfsdf	0.00	0
-1003	sdfdsfsd	sdfsdf	0.00	0
-1004	sfsdf	sdfsfgs	0.00	0
-1005	sdfsd	sdfsdfs	11.00	0
+1001	23213	13123	0.00	0

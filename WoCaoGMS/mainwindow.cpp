@@ -83,6 +83,7 @@ void MainWindow::on_actDeleteGoods_clicked()
         QMessageBox::critical(this, "提示", "请选中商品的编号");
         return ;
     }
+    goodsInfoModel->writeToFile();
     goodsInfoModel->readItemModel(m_model);
 }
 
