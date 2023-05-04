@@ -47,6 +47,7 @@ bool LoginDialog::getLoginStatus()
 
 void LoginDialog::on_registButton_clicked()
 {
+    ui->passwdEdit->setText(QString(" "));
     RegistDialog* registDialog = new RegistDialog(this);
     registDialog->setModel(userDataModel);
     registDialog->exec();
@@ -72,11 +73,11 @@ void LoginDialog::showUserData()
     rememberPassword = userData.getRememberPassword();
     ui->nameEdit->setText(userData.getName());
     if (userData.getRememberPassword()) {
-        ui->passwdEdit->setText("666666");
+        ui->passwdEdit->setText(userData.getPassword());
         ui->remPasswdChkBox->setChecked(true);
     }
     if (userData.getAutoLogin()) {
-        ui->passwdEdit->setText("666666");
+        ui->passwdEdit->setText(userData.getPassword());
         ui->remPasswdChkBox->setChecked(true);
         ui->autoLoginChkBox->setChecked(true);
     }
@@ -97,6 +98,7 @@ void LoginDialog::loginSuccess(UserData userData)
     userData.setAutoLogin(ui->autoLoginChkBox->isChecked());
     userData.setRememberPassword(ui->remPasswdChkBox->isChecked());
     userDataModel->map[userData.getName()] = userData;
+    userName = userData.getName();
     loginStatus = true;
 }
 
@@ -118,16 +120,11 @@ void LoginDialog::on_loginButton_clicked()
         QMessageBox::critical(this, "错误", "用户不存在");
         return ;
     }
-    if (rememberPassword || isAutoLogin) {
-        loginSuccess(userDataModel->map[name]);
-        close();
-        return ;
-    }
     QCryptographicHash hash(QCryptographicHash::Md5);
     hash.addData(passwd.toLocal8Bit().data());
     QString hex = hash.result().toHex();
-    if (hex == userDataModel->map[name].getPassword()) {
-        QMessageBox::information(this, "提示", "登录成功");
+    if (hex == userDataModel->map[name].getPassword() || passwd == userDataModel->map[name].getPassword()) {
+        OperationRecord::record(name, "登录账号");
         loginSuccess(userDataModel->map[name]);
         close();
         return ;

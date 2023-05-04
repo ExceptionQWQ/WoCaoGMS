@@ -703,12 +703,15 @@
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/xlocale.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/xlocale/_time.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include/stdarg.h \
+  /Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS/operationrecord.h \
   /Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS/userdata.h \
   /Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS/userdatamodel.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/QCryptographicHash \
+  /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/QDate \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/QMap \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/QRegularExpression \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/QString \
+  /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/QTime \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qalgorithms.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qanystringview.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qarraydata.h \
@@ -721,6 +724,7 @@
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearrayalgorithms.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearraylist.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearrayview.h \
+  /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qcalendar.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qchar.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qcompare.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qcompare_impl.h \
@@ -732,6 +736,7 @@
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontiguouscache.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qcryptographichash.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qdatastream.h \
+  /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qdatetime.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qdebug.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qflags.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qforeach.h \
@@ -744,6 +749,7 @@
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qiterator.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qline.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qlist.h \
+  /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qlocale.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qlogging.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qmap.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qmargins.h \

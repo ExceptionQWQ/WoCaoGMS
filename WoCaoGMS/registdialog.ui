@@ -28,6 +28,9 @@
   <property name="windowTitle">
    <string>用户注册</string>
   </property>
+  <property name="windowOpacity">
+   <double>0.900000000000000</double>
+  </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
     <widget class="QLabel" name="label_4">

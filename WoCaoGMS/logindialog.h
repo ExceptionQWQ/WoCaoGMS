@@ -5,6 +5,8 @@
 #include <QCryptographicHash>
 #include "userdatamodel.h"
 #include "registdialog.h"
+#include "mainwindow.h"
+#include "operationrecord.h"
 
 namespace Ui {
 class LoginDialog;
@@ -40,8 +42,8 @@ private:
     Ui::LoginDialog *ui;
     QString userName; //用户名称
     QString userPassword; //用户密码
-    bool isAutoLogin; //是否自动登录
-    bool rememberPassword; //是否记住密码
+    bool isAutoLogin = false; //是否自动登录
+    bool rememberPassword = false; //是否记住密码
     UserDataModel* userDataModel;
     bool loginStatus;
 };

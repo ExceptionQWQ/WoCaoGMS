@@ -25,6 +25,8 @@ set(PROJECT_SOURCES
         goodsadddialog.h goodsadddialog.cpp goodsadddialog.ui
         goodsinfo.h goodsinfo.cpp
         goodsinfomodel.h goodsinfomodel.cpp
+        operationrecord.h operationrecord.cpp
+        showrecord.h showrecord.cpp showrecord.ui
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

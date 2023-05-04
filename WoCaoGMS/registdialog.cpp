@@ -49,6 +49,7 @@ void RegistDialog::on_registButton_clicked()
     userData.setRememberPassword(false);
     userDataModel->map.insert(name, userData);
     QMessageBox::information(this, "提示", "注册成功");
+    OperationRecord::record(name, "注册账号");
     close();
 }
 

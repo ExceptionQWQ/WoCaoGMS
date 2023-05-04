@@ -13,6 +13,11 @@ GoodsAddDialog::~GoodsAddDialog()
     delete ui;
 }
 
+void GoodsAddDialog::setName(QString name)
+{
+    this->currentUserName = name;
+}
+
 GoodsInfo GoodsAddDialog::getGoodsInfo()
 {
     return goodsInfo;
@@ -38,6 +43,8 @@ void GoodsAddDialog::on_pushButton_clicked()
     QString idStr = globalConfig.get("id", "1000");
     globalConfig.put("id", QString("%1").arg(idStr.toUInt() + 1));
     globalConfig.commit();
+
+    OperationRecord::record(currentUserName, "添加商品 id:" + idStr + " 名称:" + name +" 单位:" + unit + " 价格:" + price);
 
     goodsInfo.SetID(idStr);
     goodsInfo.SetName(name);

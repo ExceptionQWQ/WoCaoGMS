@@ -289,9 +289,21 @@
 			null
 		],
 		[
+			"/Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS/operationrecord.h",
+			"MU",
+			"EWIEGA46WW/moc_operationrecord.cpp",
+			null
+		],
+		[
 			"/Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS/registdialog.h",
 			"MU",
 			"EWIEGA46WW/moc_registdialog.cpp",
+			null
+		],
+		[
+			"/Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS/showrecord.h",
+			"MU",
+			"EWIEGA46WW/moc_showrecord.cpp",
 			null
 		],
 		[
@@ -400,7 +412,17 @@
 			null
 		],
 		[
+			"/Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS/operationrecord.cpp",
+			"MU",
+			null
+		],
+		[
 			"/Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS/registdialog.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS/showrecord.cpp",
 			"MU",
 			null
 		],

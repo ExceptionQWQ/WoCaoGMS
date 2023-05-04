@@ -1,0 +1,352 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: WoCaoGMS
+# Configurations: Release
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Release
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/build-WoCaoGMS-Qt_6_4_2_for_macOS-Release/
+# =============================================================================
+# Object build statements for EXECUTABLE target WoCaoGMS
+
+
+#############################################
+# Order-only phony target for WoCaoGMS
+
+build cmake_object_order_depends_target_WoCaoGMS: phony || WoCaoGMS_autogen WoCaoGMS_autogen/mocs_compilation.cpp WoCaoGMS_autogen/timestamp WoCaoGMS_autogen_timestamp_deps
+
+build CMakeFiles/WoCaoGMS.dir/WoCaoGMS_autogen/mocs_compilation.cpp.o: CXX_COMPILER__WoCaoGMS_Release /Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/build-WoCaoGMS-Qt_6_4_2_for_macOS-Release/WoCaoGMS_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_WoCaoGMS
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/WoCaoGMS.dir/WoCaoGMS_autogen/mocs_compilation.cpp.o.d
+  FLAGS = -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -std=gnu++17
+  INCLUDES = -I/Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/build-WoCaoGMS-Qt_6_4_2_for_macOS-Release/WoCaoGMS_autogen/include -isystem /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Headers -iframework /Users/mac/Qt/6.4.2/macos/lib -isystem /Users/mac/Qt/6.4.2/macos/mkspecs/macx-clang -isystem /Users/mac/Qt/6.4.2/macos/include -isystem /Users/mac/Qt/6.4.2/macos/lib/QtWidgets.framework/Headers -isystem /Users/mac/Qt/6.4.2/macos/lib/QtGui.framework/Headers
+  OBJECT_DIR = CMakeFiles/WoCaoGMS.dir
+  OBJECT_FILE_DIR = CMakeFiles/WoCaoGMS.dir/WoCaoGMS_autogen
+  TARGET_COMPILE_PDB = CMakeFiles/WoCaoGMS.dir/
+  TARGET_PDB = WoCaoGMS.pdb
+
+build CMakeFiles/WoCaoGMS.dir/main.cpp.o: CXX_COMPILER__WoCaoGMS_Release /Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS/main.cpp || cmake_object_order_depends_target_WoCaoGMS
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/WoCaoGMS.dir/main.cpp.o.d
+  FLAGS = -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -std=gnu++17
+  INCLUDES = -I/Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/build-WoCaoGMS-Qt_6_4_2_for_macOS-Release/WoCaoGMS_autogen/include -isystem /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Headers -iframework /Users/mac/Qt/6.4.2/macos/lib -isystem /Users/mac/Qt/6.4.2/macos/mkspecs/macx-clang -isystem /Users/mac/Qt/6.4.2/macos/include -isystem /Users/mac/Qt/6.4.2/macos/lib/QtWidgets.framework/Headers -isystem /Users/mac/Qt/6.4.2/macos/lib/QtGui.framework/Headers
+  OBJECT_DIR = CMakeFiles/WoCaoGMS.dir
+  OBJECT_FILE_DIR = CMakeFiles/WoCaoGMS.dir
+  TARGET_COMPILE_PDB = CMakeFiles/WoCaoGMS.dir/
+  TARGET_PDB = WoCaoGMS.pdb
+
+build CMakeFiles/WoCaoGMS.dir/mainwindow.cpp.o: CXX_COMPILER__WoCaoGMS_Release /Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS/mainwindow.cpp || cmake_object_order_depends_target_WoCaoGMS
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/WoCaoGMS.dir/mainwindow.cpp.o.d
+  FLAGS = -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -std=gnu++17
+  INCLUDES = -I/Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/build-WoCaoGMS-Qt_6_4_2_for_macOS-Release/WoCaoGMS_autogen/include -isystem /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Headers -iframework /Users/mac/Qt/6.4.2/macos/lib -isystem /Users/mac/Qt/6.4.2/macos/mkspecs/macx-clang -isystem /Users/mac/Qt/6.4.2/macos/include -isystem /Users/mac/Qt/6.4.2/macos/lib/QtWidgets.framework/Headers -isystem /Users/mac/Qt/6.4.2/macos/lib/QtGui.framework/Headers
+  OBJECT_DIR = CMakeFiles/WoCaoGMS.dir
+  OBJECT_FILE_DIR = CMakeFiles/WoCaoGMS.dir
+  TARGET_COMPILE_PDB = CMakeFiles/WoCaoGMS.dir/
+  TARGET_PDB = WoCaoGMS.pdb
+
+build CMakeFiles/WoCaoGMS.dir/logindialog.cpp.o: CXX_COMPILER__WoCaoGMS_Release /Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS/logindialog.cpp || cmake_object_order_depends_target_WoCaoGMS
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/WoCaoGMS.dir/logindialog.cpp.o.d
+  FLAGS = -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -std=gnu++17
+  INCLUDES = -I/Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/build-WoCaoGMS-Qt_6_4_2_for_macOS-Release/WoCaoGMS_autogen/include -isystem /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Headers -iframework /Users/mac/Qt/6.4.2/macos/lib -isystem /Users/mac/Qt/6.4.2/macos/mkspecs/macx-clang -isystem /Users/mac/Qt/6.4.2/macos/include -isystem /Users/mac/Qt/6.4.2/macos/lib/QtWidgets.framework/Headers -isystem /Users/mac/Qt/6.4.2/macos/lib/QtGui.framework/Headers
+  OBJECT_DIR = CMakeFiles/WoCaoGMS.dir
+  OBJECT_FILE_DIR = CMakeFiles/WoCaoGMS.dir
+  TARGET_COMPILE_PDB = CMakeFiles/WoCaoGMS.dir/
+  TARGET_PDB = WoCaoGMS.pdb
+
+build CMakeFiles/WoCaoGMS.dir/registdialog.cpp.o: CXX_COMPILER__WoCaoGMS_Release /Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS/registdialog.cpp || cmake_object_order_depends_target_WoCaoGMS
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/WoCaoGMS.dir/registdialog.cpp.o.d
+  FLAGS = -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -std=gnu++17
+  INCLUDES = -I/Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/build-WoCaoGMS-Qt_6_4_2_for_macOS-Release/WoCaoGMS_autogen/include -isystem /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Headers -iframework /Users/mac/Qt/6.4.2/macos/lib -isystem /Users/mac/Qt/6.4.2/macos/mkspecs/macx-clang -isystem /Users/mac/Qt/6.4.2/macos/include -isystem /Users/mac/Qt/6.4.2/macos/lib/QtWidgets.framework/Headers -isystem /Users/mac/Qt/6.4.2/macos/lib/QtGui.framework/Headers
+  OBJECT_DIR = CMakeFiles/WoCaoGMS.dir
+  OBJECT_FILE_DIR = CMakeFiles/WoCaoGMS.dir
+  TARGET_COMPILE_PDB = CMakeFiles/WoCaoGMS.dir/
+  TARGET_PDB = WoCaoGMS.pdb
+
+build CMakeFiles/WoCaoGMS.dir/userdatamodel.cpp.o: CXX_COMPILER__WoCaoGMS_Release /Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS/userdatamodel.cpp || cmake_object_order_depends_target_WoCaoGMS
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/WoCaoGMS.dir/userdatamodel.cpp.o.d
+  FLAGS = -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -std=gnu++17
+  INCLUDES = -I/Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/build-WoCaoGMS-Qt_6_4_2_for_macOS-Release/WoCaoGMS_autogen/include -isystem /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Headers -iframework /Users/mac/Qt/6.4.2/macos/lib -isystem /Users/mac/Qt/6.4.2/macos/mkspecs/macx-clang -isystem /Users/mac/Qt/6.4.2/macos/include -isystem /Users/mac/Qt/6.4.2/macos/lib/QtWidgets.framework/Headers -isystem /Users/mac/Qt/6.4.2/macos/lib/QtGui.framework/Headers
+  OBJECT_DIR = CMakeFiles/WoCaoGMS.dir
+  OBJECT_FILE_DIR = CMakeFiles/WoCaoGMS.dir
+  TARGET_COMPILE_PDB = CMakeFiles/WoCaoGMS.dir/
+  TARGET_PDB = WoCaoGMS.pdb
+
+build CMakeFiles/WoCaoGMS.dir/userdata.cpp.o: CXX_COMPILER__WoCaoGMS_Release /Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS/userdata.cpp || cmake_object_order_depends_target_WoCaoGMS
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/WoCaoGMS.dir/userdata.cpp.o.d
+  FLAGS = -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -std=gnu++17
+  INCLUDES = -I/Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/build-WoCaoGMS-Qt_6_4_2_for_macOS-Release/WoCaoGMS_autogen/include -isystem /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Headers -iframework /Users/mac/Qt/6.4.2/macos/lib -isystem /Users/mac/Qt/6.4.2/macos/mkspecs/macx-clang -isystem /Users/mac/Qt/6.4.2/macos/include -isystem /Users/mac/Qt/6.4.2/macos/lib/QtWidgets.framework/Headers -isystem /Users/mac/Qt/6.4.2/macos/lib/QtGui.framework/Headers
+  OBJECT_DIR = CMakeFiles/WoCaoGMS.dir
+  OBJECT_FILE_DIR = CMakeFiles/WoCaoGMS.dir
+  TARGET_COMPILE_PDB = CMakeFiles/WoCaoGMS.dir/
+  TARGET_PDB = WoCaoGMS.pdb
+
+build CMakeFiles/WoCaoGMS.dir/globalconfig.cpp.o: CXX_COMPILER__WoCaoGMS_Release /Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS/globalconfig.cpp || cmake_object_order_depends_target_WoCaoGMS
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/WoCaoGMS.dir/globalconfig.cpp.o.d
+  FLAGS = -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -std=gnu++17
+  INCLUDES = -I/Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/build-WoCaoGMS-Qt_6_4_2_for_macOS-Release/WoCaoGMS_autogen/include -isystem /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Headers -iframework /Users/mac/Qt/6.4.2/macos/lib -isystem /Users/mac/Qt/6.4.2/macos/mkspecs/macx-clang -isystem /Users/mac/Qt/6.4.2/macos/include -isystem /Users/mac/Qt/6.4.2/macos/lib/QtWidgets.framework/Headers -isystem /Users/mac/Qt/6.4.2/macos/lib/QtGui.framework/Headers
+  OBJECT_DIR = CMakeFiles/WoCaoGMS.dir
+  OBJECT_FILE_DIR = CMakeFiles/WoCaoGMS.dir
+  TARGET_COMPILE_PDB = CMakeFiles/WoCaoGMS.dir/
+  TARGET_PDB = WoCaoGMS.pdb
+
+build CMakeFiles/WoCaoGMS.dir/goodsadddialog.cpp.o: CXX_COMPILER__WoCaoGMS_Release /Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS/goodsadddialog.cpp || cmake_object_order_depends_target_WoCaoGMS
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/WoCaoGMS.dir/goodsadddialog.cpp.o.d
+  FLAGS = -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -std=gnu++17
+  INCLUDES = -I/Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/build-WoCaoGMS-Qt_6_4_2_for_macOS-Release/WoCaoGMS_autogen/include -isystem /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Headers -iframework /Users/mac/Qt/6.4.2/macos/lib -isystem /Users/mac/Qt/6.4.2/macos/mkspecs/macx-clang -isystem /Users/mac/Qt/6.4.2/macos/include -isystem /Users/mac/Qt/6.4.2/macos/lib/QtWidgets.framework/Headers -isystem /Users/mac/Qt/6.4.2/macos/lib/QtGui.framework/Headers
+  OBJECT_DIR = CMakeFiles/WoCaoGMS.dir
+  OBJECT_FILE_DIR = CMakeFiles/WoCaoGMS.dir
+  TARGET_COMPILE_PDB = CMakeFiles/WoCaoGMS.dir/
+  TARGET_PDB = WoCaoGMS.pdb
+
+build CMakeFiles/WoCaoGMS.dir/goodsinfo.cpp.o: CXX_COMPILER__WoCaoGMS_Release /Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS/goodsinfo.cpp || cmake_object_order_depends_target_WoCaoGMS
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/WoCaoGMS.dir/goodsinfo.cpp.o.d
+  FLAGS = -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -std=gnu++17
+  INCLUDES = -I/Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/build-WoCaoGMS-Qt_6_4_2_for_macOS-Release/WoCaoGMS_autogen/include -isystem /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Headers -iframework /Users/mac/Qt/6.4.2/macos/lib -isystem /Users/mac/Qt/6.4.2/macos/mkspecs/macx-clang -isystem /Users/mac/Qt/6.4.2/macos/include -isystem /Users/mac/Qt/6.4.2/macos/lib/QtWidgets.framework/Headers -isystem /Users/mac/Qt/6.4.2/macos/lib/QtGui.framework/Headers
+  OBJECT_DIR = CMakeFiles/WoCaoGMS.dir
+  OBJECT_FILE_DIR = CMakeFiles/WoCaoGMS.dir
+  TARGET_COMPILE_PDB = CMakeFiles/WoCaoGMS.dir/
+  TARGET_PDB = WoCaoGMS.pdb
+
+build CMakeFiles/WoCaoGMS.dir/goodsinfomodel.cpp.o: CXX_COMPILER__WoCaoGMS_Release /Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS/goodsinfomodel.cpp || cmake_object_order_depends_target_WoCaoGMS
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/WoCaoGMS.dir/goodsinfomodel.cpp.o.d
+  FLAGS = -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -std=gnu++17
+  INCLUDES = -I/Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/build-WoCaoGMS-Qt_6_4_2_for_macOS-Release/WoCaoGMS_autogen/include -isystem /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Headers -iframework /Users/mac/Qt/6.4.2/macos/lib -isystem /Users/mac/Qt/6.4.2/macos/mkspecs/macx-clang -isystem /Users/mac/Qt/6.4.2/macos/include -isystem /Users/mac/Qt/6.4.2/macos/lib/QtWidgets.framework/Headers -isystem /Users/mac/Qt/6.4.2/macos/lib/QtGui.framework/Headers
+  OBJECT_DIR = CMakeFiles/WoCaoGMS.dir
+  OBJECT_FILE_DIR = CMakeFiles/WoCaoGMS.dir
+  TARGET_COMPILE_PDB = CMakeFiles/WoCaoGMS.dir/
+  TARGET_PDB = WoCaoGMS.pdb
+
+build CMakeFiles/WoCaoGMS.dir/operationrecord.cpp.o: CXX_COMPILER__WoCaoGMS_Release /Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS/operationrecord.cpp || cmake_object_order_depends_target_WoCaoGMS
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/WoCaoGMS.dir/operationrecord.cpp.o.d
+  FLAGS = -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -std=gnu++17
+  INCLUDES = -I/Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/build-WoCaoGMS-Qt_6_4_2_for_macOS-Release/WoCaoGMS_autogen/include -isystem /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Headers -iframework /Users/mac/Qt/6.4.2/macos/lib -isystem /Users/mac/Qt/6.4.2/macos/mkspecs/macx-clang -isystem /Users/mac/Qt/6.4.2/macos/include -isystem /Users/mac/Qt/6.4.2/macos/lib/QtWidgets.framework/Headers -isystem /Users/mac/Qt/6.4.2/macos/lib/QtGui.framework/Headers
+  OBJECT_DIR = CMakeFiles/WoCaoGMS.dir
+  OBJECT_FILE_DIR = CMakeFiles/WoCaoGMS.dir
+  TARGET_COMPILE_PDB = CMakeFiles/WoCaoGMS.dir/
+  TARGET_PDB = WoCaoGMS.pdb
+
+build CMakeFiles/WoCaoGMS.dir/showrecord.cpp.o: CXX_COMPILER__WoCaoGMS_Release /Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS/showrecord.cpp || cmake_object_order_depends_target_WoCaoGMS
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/WoCaoGMS.dir/showrecord.cpp.o.d
+  FLAGS = -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -std=gnu++17
+  INCLUDES = -I/Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/build-WoCaoGMS-Qt_6_4_2_for_macOS-Release/WoCaoGMS_autogen/include -isystem /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Headers -iframework /Users/mac/Qt/6.4.2/macos/lib -isystem /Users/mac/Qt/6.4.2/macos/mkspecs/macx-clang -isystem /Users/mac/Qt/6.4.2/macos/include -isystem /Users/mac/Qt/6.4.2/macos/lib/QtWidgets.framework/Headers -isystem /Users/mac/Qt/6.4.2/macos/lib/QtGui.framework/Headers
+  OBJECT_DIR = CMakeFiles/WoCaoGMS.dir
+  OBJECT_FILE_DIR = CMakeFiles/WoCaoGMS.dir
+  TARGET_COMPILE_PDB = CMakeFiles/WoCaoGMS.dir/
+  TARGET_PDB = WoCaoGMS.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target WoCaoGMS
+
+
+#############################################
+# Link the executable WoCaoGMS.app/Contents/MacOS/WoCaoGMS
+
+build WoCaoGMS.app/Contents/MacOS/WoCaoGMS: CXX_EXECUTABLE_LINKER__WoCaoGMS_Release CMakeFiles/WoCaoGMS.dir/WoCaoGMS_autogen/mocs_compilation.cpp.o CMakeFiles/WoCaoGMS.dir/main.cpp.o CMakeFiles/WoCaoGMS.dir/mainwindow.cpp.o CMakeFiles/WoCaoGMS.dir/logindialog.cpp.o CMakeFiles/WoCaoGMS.dir/registdialog.cpp.o CMakeFiles/WoCaoGMS.dir/userdatamodel.cpp.o CMakeFiles/WoCaoGMS.dir/userdata.cpp.o CMakeFiles/WoCaoGMS.dir/globalconfig.cpp.o CMakeFiles/WoCaoGMS.dir/goodsadddialog.cpp.o CMakeFiles/WoCaoGMS.dir/goodsinfo.cpp.o CMakeFiles/WoCaoGMS.dir/goodsinfomodel.cpp.o CMakeFiles/WoCaoGMS.dir/operationrecord.cpp.o CMakeFiles/WoCaoGMS.dir/showrecord.cpp.o | /Users/mac/Qt/6.4.2/macos/lib/QtWidgets.framework/Versions/A/QtWidgets /Users/mac/Qt/6.4.2/macos/lib/QtGui.framework/Versions/A/QtGui /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/QtCore || WoCaoGMS_autogen WoCaoGMS_autogen_timestamp_deps
+  FLAGS = -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk
+  LINK_LIBRARIES = -Wl,-rpath,/Users/mac/Qt/6.4.2/macos/lib  /Users/mac/Qt/6.4.2/macos/lib/QtWidgets.framework/Versions/A/QtWidgets  /Users/mac/Qt/6.4.2/macos/lib/QtGui.framework/Versions/A/QtGui  /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/QtCore  -framework IOKit  -framework DiskArbitration  -Xlinker -framework -Xlinker OpenGL  -Xlinker -framework -Xlinker AGL  -framework AppKit  -framework ImageIO  -framework Metal
+  LINK_PATH = -F/Users/mac/Qt/6.4.2/macos/lib
+  OBJECT_DIR = CMakeFiles/WoCaoGMS.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/WoCaoGMS.dir/
+  TARGET_FILE = WoCaoGMS.app/Contents/MacOS/WoCaoGMS
+  TARGET_PDB = WoCaoGMS.pdb
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/build-WoCaoGMS-Qt_6_4_2_for_macOS-Release && /Users/mac/Qt/Tools/CMake/CMake.app/Contents/bin/ccmake -S/Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS -B/Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/build-WoCaoGMS-Qt_6_4_2_for_macOS-Release
+  DESC = Running CMake cache editor...
+  pool = console
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/build-WoCaoGMS-Qt_6_4_2_for_macOS-Release && /Users/mac/Qt/Tools/CMake/CMake.app/Contents/bin/cmake --regenerate-during-build -S/Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS -B/Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/build-WoCaoGMS-Qt_6_4_2_for_macOS-Release
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build CMakeFiles/install.util: CUSTOM_COMMAND all
+  COMMAND = cd /Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/build-WoCaoGMS-Qt_6_4_2_for_macOS-Release && /Users/mac/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -P cmake_install.cmake
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build install: phony CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build CMakeFiles/install/local.util: CUSTOM_COMMAND all
+  COMMAND = cd /Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/build-WoCaoGMS-Qt_6_4_2_for_macOS-Release && /Users/mac/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build install/local: phony CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build CMakeFiles/install/strip.util: CUSTOM_COMMAND all
+  COMMAND = cd /Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/build-WoCaoGMS-Qt_6_4_2_for_macOS-Release && /Users/mac/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build install/strip: phony CMakeFiles/install/strip.util
+
+
+#############################################
+# Utility command for WoCaoGMS_autogen_timestamp_deps
+
+build WoCaoGMS_autogen_timestamp_deps: phony CMakeFiles/WoCaoGMS_autogen_timestamp_deps
+
+
+#############################################
+# Utility command for WoCaoGMS_autogen
+
+build WoCaoGMS_autogen: phony CMakeFiles/WoCaoGMS_autogen WoCaoGMS_autogen/include/ui_mainwindow.h WoCaoGMS_autogen/include/ui_logindialog.h WoCaoGMS_autogen/include/ui_registdialog.h WoCaoGMS_autogen/include/ui_goodsadddialog.h WoCaoGMS_autogen/include/ui_showrecord.h WoCaoGMS_autogen/timestamp WoCaoGMS_autogen/mocs_compilation.cpp WoCaoGMS_autogen_timestamp_deps
+
+
+#############################################
+# Custom command for WoCaoGMS_autogen/timestamp
+
+build WoCaoGMS_autogen/timestamp WoCaoGMS_autogen/mocs_compilation.cpp | ${cmake_ninja_workdir}WoCaoGMS_autogen/timestamp ${cmake_ninja_workdir}WoCaoGMS_autogen/mocs_compilation.cpp: CUSTOM_COMMAND /Users/mac/Qt/6.4.2/macos/./libexec/moc /Users/mac/Qt/6.4.2/macos/./libexec/uic || WoCaoGMS_autogen_timestamp_deps
+  COMMAND = cd /Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/build-WoCaoGMS-Qt_6_4_2_for_macOS-Release && /Users/mac/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen /Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/build-WoCaoGMS-Qt_6_4_2_for_macOS-Release/CMakeFiles/WoCaoGMS_autogen.dir/AutogenInfo.json Release && /Users/mac/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E touch /Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/build-WoCaoGMS-Qt_6_4_2_for_macOS-Release/WoCaoGMS_autogen/timestamp && /Users/mac/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_transform_depfile Ninja gccdepfile /Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS /Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS /Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/build-WoCaoGMS-Qt_6_4_2_for_macOS-Release /Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/build-WoCaoGMS-Qt_6_4_2_for_macOS-Release /Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/build-WoCaoGMS-Qt_6_4_2_for_macOS-Release/WoCaoGMS_autogen/deps /Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/build-WoCaoGMS-Qt_6_4_2_for_macOS-Release/CMakeFiles/d/462b561a221426339b30ca3638a6596b5aec8df4e7443043eafab0a44dbd0046.d
+  DESC = Automatic MOC and UIC for target WoCaoGMS
+  depfile = /Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/build-WoCaoGMS-Qt_6_4_2_for_macOS-Release/CMakeFiles/d/462b561a221426339b30ca3638a6596b5aec8df4e7443043eafab0a44dbd0046.d
+  restat = 1
+
+
+#############################################
+# Phony custom command for CMakeFiles/WoCaoGMS_autogen_timestamp_deps
+
+build CMakeFiles/WoCaoGMS_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/WoCaoGMS_autogen_timestamp_deps: phony /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/QtCore /Users/mac/Qt/6.4.2/macos/./libexec/uic /Users/mac/Qt/6.4.2/macos/./libexec/moc /Users/mac/Qt/6.4.2/macos/lib/QtWidgets.framework/Versions/A/QtWidgets
+
+
+#############################################
+# Phony custom command for CMakeFiles/WoCaoGMS_autogen
+
+build CMakeFiles/WoCaoGMS_autogen WoCaoGMS_autogen/include/ui_mainwindow.h WoCaoGMS_autogen/include/ui_logindialog.h WoCaoGMS_autogen/include/ui_registdialog.h WoCaoGMS_autogen/include/ui_goodsadddialog.h WoCaoGMS_autogen/include/ui_showrecord.h | ${cmake_ninja_workdir}CMakeFiles/WoCaoGMS_autogen ${cmake_ninja_workdir}WoCaoGMS_autogen/include/ui_mainwindow.h ${cmake_ninja_workdir}WoCaoGMS_autogen/include/ui_logindialog.h ${cmake_ninja_workdir}WoCaoGMS_autogen/include/ui_registdialog.h ${cmake_ninja_workdir}WoCaoGMS_autogen/include/ui_goodsadddialog.h ${cmake_ninja_workdir}WoCaoGMS_autogen/include/ui_showrecord.h: phony WoCaoGMS_autogen/timestamp || WoCaoGMS_autogen_timestamp_deps
+
+# =============================================================================
+# Target aliases.
+
+build WoCaoGMS: phony WoCaoGMS.app/Contents/MacOS/WoCaoGMS
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/build-WoCaoGMS-Qt_6_4_2_for_macOS-Release
+
+build all: phony WoCaoGMS.app/Contents/MacOS/WoCaoGMS
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | .qtc/package-manager/auto-setup.cmake /Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS/CMakeLists.txt /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6/FindWrapAtomic.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6/FindWrapOpenGL.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6/Qt6Config.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6/Qt6ConfigExtras.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6/Qt6ConfigVersion.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6/Qt6Dependencies.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6/Qt6Targets.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6/Qt6VersionlessTargets.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6/QtFeature.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6/QtFeatureCommon.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6/QtPublicAppleHelpers.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6/QtPublicPluginHelpers.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6/QtPublicTargetHelpers.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6/QtPublicTestHelpers.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6/QtPublicToolHelpers.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6/macos/MacOSXBundleInfo.plist.in /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Core/Qt6CoreConfig.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Core/Qt6CoreMacros.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Core/Qt6CoreTargets.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Core/Qt6CoreVersionlessTargets.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-relwithdebinfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6DBus/Qt6DBusAdditionalTargetInfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6DBus/Qt6DBusConfig.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6DBus/Qt6DBusConfigVersion.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6DBus/Qt6DBusConfigVersionImpl.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6DBus/Qt6DBusDependencies.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6DBus/Qt6DBusMacros.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6DBus/Qt6DBusTargets-relwithdebinfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6DBus/Qt6DBusTargets.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6DBus/Qt6DBusVersionlessTargets.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsAdditionalTargetInfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfig.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersion.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersionImpl.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsDependencies.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets-relwithdebinfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsVersionlessTargets.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6GuiPlugins.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6GuiTargets-relwithdebinfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6GuiVersionlessTargets.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginAdditionalTargetInfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginConfig.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginTargets-relwithdebinfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginTargets.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QGifPluginAdditionalTargetInfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QGifPluginConfig.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QGifPluginTargets-relwithdebinfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QGifPluginTargets.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QICOPluginAdditionalTargetInfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QICOPluginConfig.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QICOPluginTargets-relwithdebinfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QICOPluginTargets.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginAdditionalTargetInfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets-relwithdebinfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginConfig.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-relwithdebinfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginConfig.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets-relwithdebinfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginAdditionalTargetInfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginConfig.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets-relwithdebinfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginAdditionalTargetInfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginConfig.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets-relwithdebinfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginAdditionalTargetInfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginConfig.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets-relwithdebinfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginAdditionalTargetInfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginConfig.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets-relwithdebinfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessTargets.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CMakeCXXCompiler.cmake.in /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CMakeCompilerIdDetection.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CMakeDetermineCXXCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CMakeDetermineCompileFeatures.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CMakeDetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CMakeDetermineCompilerABI.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CMakeDetermineCompilerId.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CMakeDetermineSystem.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CMakeFindBinUtils.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CMakeFindDependencyMacro.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CMakeNinjaFindMake.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CMakeParseImplicitIncludeInfo.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CMakeParseImplicitLinkInfo.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CMakeParseLibraryArchitecture.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CMakeSystem.cmake.in /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CMakeTestCXXCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CMakeTestCompilerCommon.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CheckCXXCompilerFlag.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CheckCXXSourceCompiles.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CheckIncludeFileCXX.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CheckLibraryExists.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/ADSP-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/ARMCC-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/ARMClang-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/AppleClang-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/Borland-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/Clang.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/Cray-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/GHS-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/GNU.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/IAR-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/Intel-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/MSVC-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/NVHPC-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/PGI-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/PathScale-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/SCO-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/TI-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/Watcom-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/FindOpenGL.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/FindPackageMessage.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/FindThreads.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/GNUInstallDirs.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Internal/CheckCompilerFlag.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Internal/CheckFlagCommonConfig.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Internal/CheckSourceCompiles.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Internal/FeatureTesting.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/MacroAddFileDependencies.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Platform/Darwin-Determine-CXX.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Platform/Darwin.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build .qtc/package-manager/auto-setup.cmake /Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS/CMakeLists.txt /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6/FindWrapAtomic.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6/FindWrapOpenGL.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6/Qt6Config.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6/Qt6ConfigExtras.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6/Qt6ConfigVersion.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6/Qt6Dependencies.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6/Qt6Targets.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6/Qt6VersionlessTargets.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6/QtFeature.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6/QtFeatureCommon.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6/QtPublicAppleHelpers.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6/QtPublicPluginHelpers.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6/QtPublicTargetHelpers.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6/QtPublicTestHelpers.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6/QtPublicToolHelpers.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6/macos/MacOSXBundleInfo.plist.in /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Core/Qt6CoreConfig.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Core/Qt6CoreMacros.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Core/Qt6CoreTargets.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Core/Qt6CoreVersionlessTargets.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-relwithdebinfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6DBus/Qt6DBusAdditionalTargetInfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6DBus/Qt6DBusConfig.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6DBus/Qt6DBusConfigVersion.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6DBus/Qt6DBusConfigVersionImpl.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6DBus/Qt6DBusDependencies.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6DBus/Qt6DBusMacros.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6DBus/Qt6DBusTargets-relwithdebinfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6DBus/Qt6DBusTargets.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6DBus/Qt6DBusVersionlessTargets.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsAdditionalTargetInfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfig.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersion.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersionImpl.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsDependencies.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets-relwithdebinfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsVersionlessTargets.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6GuiPlugins.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6GuiTargets-relwithdebinfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6GuiVersionlessTargets.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginAdditionalTargetInfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginConfig.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginTargets-relwithdebinfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginTargets.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QGifPluginAdditionalTargetInfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QGifPluginConfig.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QGifPluginTargets-relwithdebinfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QGifPluginTargets.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QICOPluginAdditionalTargetInfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QICOPluginConfig.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QICOPluginTargets-relwithdebinfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QICOPluginTargets.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginAdditionalTargetInfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets-relwithdebinfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginConfig.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-relwithdebinfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginConfig.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets-relwithdebinfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginAdditionalTargetInfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginConfig.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets-relwithdebinfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginAdditionalTargetInfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginConfig.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets-relwithdebinfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginAdditionalTargetInfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginConfig.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets-relwithdebinfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginAdditionalTargetInfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginConfig.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets-relwithdebinfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessTargets.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake /Users/mac/Qt/6.4.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CMakeCXXCompiler.cmake.in /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CMakeCompilerIdDetection.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CMakeDetermineCXXCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CMakeDetermineCompileFeatures.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CMakeDetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CMakeDetermineCompilerABI.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CMakeDetermineCompilerId.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CMakeDetermineSystem.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CMakeFindBinUtils.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CMakeFindDependencyMacro.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CMakeNinjaFindMake.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CMakeParseImplicitIncludeInfo.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CMakeParseImplicitLinkInfo.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CMakeParseLibraryArchitecture.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CMakeSystem.cmake.in /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CMakeTestCXXCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CMakeTestCompilerCommon.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CheckCXXCompilerFlag.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CheckCXXSourceCompiles.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CheckIncludeFileCXX.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CheckLibraryExists.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/ADSP-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/ARMCC-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/ARMClang-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/AppleClang-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/Borland-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/Clang.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/Cray-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/GHS-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/GNU.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/IAR-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/Intel-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/MSVC-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/NVHPC-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/PGI-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/PathScale-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/SCO-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/TI-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/Watcom-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/FindOpenGL.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/FindPackageMessage.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/FindThreads.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/GNUInstallDirs.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Internal/CheckCompilerFlag.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Internal/CheckFlagCommonConfig.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Internal/CheckSourceCompiles.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Internal/FeatureTesting.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/MacroAddFileDependencies.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Platform/Darwin-Determine-CXX.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Platform/Darwin.cmake /Users/mac/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean additional files.
+
+build CMakeFiles/clean.additional: CLEAN_ADDITIONAL
+  CONFIG = Release
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN CMakeFiles/clean.additional
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all

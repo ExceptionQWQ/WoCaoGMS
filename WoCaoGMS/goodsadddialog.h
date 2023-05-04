@@ -5,6 +5,8 @@
 #include <QMessageBox>
 #include "globalconfig.h"
 #include "goodsinfo.h"
+#include "operationrecord.h"
+#include "mainwindow.h"
 
 namespace Ui {
 class GoodsAddDialog;
@@ -18,6 +20,7 @@ public:
     explicit GoodsAddDialog(QWidget *parent = nullptr);
     ~GoodsAddDialog();
 
+    void setName(QString name);
     GoodsInfo getGoodsInfo();
     bool added();
 
@@ -26,8 +29,9 @@ private slots:
 
 private:
     Ui::GoodsAddDialog *ui;
+    QString currentUserName;
     GoodsInfo goodsInfo;
-    bool hasAdded;
+    bool hasAdded = false;
 };
 
 #endif // GOODSADDDIALOG_H

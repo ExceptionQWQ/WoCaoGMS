@@ -22,8 +22,8 @@ public:
 private:
     QString name; //用户名称
     QString password; //使用MD5加密后的用户密码
-    bool isAutoLogin; //是否设置自动登录
-    bool isRememberPassword; //是否设置保存密码
+    bool isAutoLogin = false; //是否设置自动登录
+    bool isRememberPassword = false; //是否设置保存密码
 };
 
 #endif // USERDATA_H

@@ -13,6 +13,7 @@ int main(int argc, char *argv[])
     QString loginName = loginDialog->getUserName();
 
     delete loginDialog;
+    if (loginName.isEmpty() || !status) return 0;
 
     qDebug("login:%s", loginName.toLocal8Bit().data());
 

@@ -1,0 +1,9 @@
+/Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/build-WoCaoGMS-Qt_6_4_2_for_macOS-Release/CMakeFiles/WoCaoGMS.dir
+/Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/build-WoCaoGMS-Qt_6_4_2_for_macOS-Release/CMakeFiles/edit_cache.dir
+/Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/build-WoCaoGMS-Qt_6_4_2_for_macOS-Release/CMakeFiles/rebuild_cache.dir
+/Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/build-WoCaoGMS-Qt_6_4_2_for_macOS-Release/CMakeFiles/list_install_components.dir
+/Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/build-WoCaoGMS-Qt_6_4_2_for_macOS-Release/CMakeFiles/install.dir
+/Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/build-WoCaoGMS-Qt_6_4_2_for_macOS-Release/CMakeFiles/install/local.dir
+/Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/build-WoCaoGMS-Qt_6_4_2_for_macOS-Release/CMakeFiles/install/strip.dir
+/Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/build-WoCaoGMS-Qt_6_4_2_for_macOS-Release/CMakeFiles/WoCaoGMS_autogen_timestamp_deps.dir
+/Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/build-WoCaoGMS-Qt_6_4_2_for_macOS-Release/CMakeFiles/WoCaoGMS_autogen.dir

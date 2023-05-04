@@ -716,8 +716,12 @@ WoCaoGMS_autogen/timestamp: \
   /Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS/main.cpp \
   /Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS/mainwindow.cpp \
   /Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS/mainwindow.h \
+  /Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS/operationrecord.cpp \
+  /Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS/operationrecord.h \
   /Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS/registdialog.cpp \
   /Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS/registdialog.h \
+  /Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS/showrecord.cpp \
+  /Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS/showrecord.h \
   /Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS/userdata.cpp \
   /Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS/userdata.h \
   /Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS/userdatamodel.cpp \
@@ -727,10 +731,13 @@ WoCaoGMS_autogen/timestamp: \
   CMakeFiles/3.24.2/CMakeSystem.cmake \
   WoCaoGMS_autogen/moc_predefs.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/QCryptographicHash \
+  /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/QDate \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/QItemSelectionModel \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/QMap \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/QRegularExpression \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/QString \
+  /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/QStringListModel \
+  /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/QTime \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qabstractitemmodel.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qalgorithms.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qanystringview.h \
@@ -744,6 +751,7 @@ WoCaoGMS_autogen/timestamp: \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearrayalgorithms.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearraylist.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearrayview.h \
+  /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qcalendar.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qchar.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qcompare.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qcompare_impl.h \
@@ -755,6 +763,7 @@ WoCaoGMS_autogen/timestamp: \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontiguouscache.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qcryptographichash.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qdatastream.h \
+  /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qdatetime.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qdebug.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qflags.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qforeach.h \
@@ -768,6 +777,7 @@ WoCaoGMS_autogen/timestamp: \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qiterator.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qline.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qlist.h \
+  /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qlocale.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qlogging.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qmap.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qmargins.h \
@@ -799,6 +809,7 @@ WoCaoGMS_autogen/timestamp: \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringconverter_base.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringfwd.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringlist.h \
+  /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringlistmodel.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringliteral.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringmatcher.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringtokenizer.h \
@@ -812,6 +823,7 @@ WoCaoGMS_autogen/timestamp: \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qtextstream.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qtmetamacros.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qtypeinfo.h \
+  /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qurl.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qutf8stringview.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qvariant.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/Headers/qvarlengtharray.h \
@@ -830,6 +842,7 @@ WoCaoGMS_autogen/timestamp: \
   /Users/mac/Qt/6.4.2/macos/lib/QtGui.framework/Versions/A/Headers/qkeysequence.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtGui.framework/Versions/A/Headers/qpaintdevice.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtGui.framework/Versions/A/Headers/qpalette.h \
+  /Users/mac/Qt/6.4.2/macos/lib/QtGui.framework/Versions/A/Headers/qpen.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtGui.framework/Versions/A/Headers/qpixelformat.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtGui.framework/Versions/A/Headers/qpixmap.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtGui.framework/Versions/A/Headers/qpolygon.h \
@@ -837,15 +850,23 @@ WoCaoGMS_autogen/timestamp: \
   /Users/mac/Qt/6.4.2/macos/lib/QtGui.framework/Versions/A/Headers/qrgb.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtGui.framework/Versions/A/Headers/qrgba64.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtGui.framework/Versions/A/Headers/qstandarditemmodel.h \
+  /Users/mac/Qt/6.4.2/macos/lib/QtGui.framework/Versions/A/Headers/qtextcursor.h \
+  /Users/mac/Qt/6.4.2/macos/lib/QtGui.framework/Versions/A/Headers/qtextdocument.h \
+  /Users/mac/Qt/6.4.2/macos/lib/QtGui.framework/Versions/A/Headers/qtextformat.h \
+  /Users/mac/Qt/6.4.2/macos/lib/QtGui.framework/Versions/A/Headers/qtextoption.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtGui.framework/Versions/A/Headers/qtgui-config.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtGui.framework/Versions/A/Headers/qtguiexports.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtGui.framework/Versions/A/Headers/qtguiglobal.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtGui.framework/Versions/A/Headers/qtransform.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QDialog \
+  /Users/mac/Qt/6.4.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QInputDialog \
   /Users/mac/Qt/6.4.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QMainWindow \
   /Users/mac/Qt/6.4.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QMessageBox \
   /Users/mac/Qt/6.4.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qdialog.h \
+  /Users/mac/Qt/6.4.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qframe.h \
+  /Users/mac/Qt/6.4.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qinputdialog.h \
+  /Users/mac/Qt/6.4.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qlineedit.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qmainwindow.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qmessagebox.h \
   /Users/mac/Qt/6.4.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h \
@@ -1022,4 +1043,5 @@ WoCaoGMS_autogen/timestamp: \
   /Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS/logindialog.ui \
   /Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS/mainwindow.ui \
   /Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS/registdialog.ui \
+  /Users/mac/Desktop/WoCaoGMS-WorkSpace/WoCaoGMS/WoCaoGMS/showrecord.ui \
   /Users/mac/Qt/Tools/CMake/CMake.app/Contents/bin/cmake

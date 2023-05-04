@@ -6,6 +6,7 @@
 #include <QCryptographicHash>
 #include "userdatamodel.h"
 #include "userdata.h"
+#include "operationrecord.h"
 
 namespace Ui {
 class RegistDialog;

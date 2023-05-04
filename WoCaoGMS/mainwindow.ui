@@ -13,6 +13,9 @@
   <property name="windowTitle">
    <string>WoCao进销存管理系统</string>
   </property>
+  <property name="windowOpacity">
+   <double>0.900000000000000</double>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QHBoxLayout" name="horizontalLayout">
     <item>
@@ -68,7 +71,7 @@
     <property name="title">
      <string>显示</string>
     </property>
-    <addaction name="action_2"/>
+    <addaction name="actShowLog"/>
    </widget>
    <widget class="QMenu" name="menu_6">
     <property name="title">
@@ -103,7 +106,7 @@
    <addaction name="actPutIn"/>
    <addaction name="actPutOut"/>
    <addaction name="separator"/>
-   <addaction name="action_2"/>
+   <addaction name="actShowLog"/>
   </widget>
   <action name="actExitLogin">
    <property name="text">
@@ -197,7 +200,7 @@
     <string>Meta+F</string>
    </property>
   </action>
-  <action name="action_2">
+  <action name="actShowLog">
    <property name="text">
     <string>显示操作记录</string>
    </property>

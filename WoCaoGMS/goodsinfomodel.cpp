@@ -34,10 +34,16 @@ void GoodsInfoModel::readItemModel(QStandardItemModel *model)
         QStandardItem* item5 = new QStandardItem();
 
         item1->setText(iter_b->getID());
+        item1->setTextAlignment(Qt::AlignHCenter | Qt::AlignVCenter);
+        item1->setData(1, Qt::UserRole + 1);
         item2->setText(iter_b->getName());
+        item2->setTextAlignment(Qt::AlignHCenter | Qt::AlignVCenter);
         item3->setText(iter_b->getUnit());
+        item3->setTextAlignment(Qt::AlignHCenter | Qt::AlignVCenter);
         item4->setText(iter_b->getPrice());
+        item4->setTextAlignment(Qt::AlignHCenter | Qt::AlignVCenter);
         item5->setText(iter_b->getNum());
+        item5->setTextAlignment(Qt::AlignHCenter | Qt::AlignVCenter);
         QList<QStandardItem*> list = {item1, item2, item3, item4, item5};
         model->appendRow(list);
     }
